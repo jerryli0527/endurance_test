@@ -1,0 +1,31 @@
+ PC num:     PC1  PC2  PC3  PC4  PC5  PC6  PC7  PC8 
+ Enable:     1    1    1    1    1    1    1    1
+ Consle:     1    0    0    0    1    0    1    0
+ CtrlIP:     1.1.1.1   1.1.1.2   1.1.1.3   1.1.1.4   1.1.1.5   1.1.1.6   1.1.1.7   1.1.1.8
+ ConDUT:     Base   Base   Base   Base   Satellite1   Satellite1   Satellite2   Satellite2
+ Intrfc:     Ethernet   6G   5G   2.4G   5G   6G-Guest   5G-Guest   2.4G-Guest
+ PC IP :     192.168.1.50   0    192.168.1.60   0    0    0    0    0 
+
+ PC num:     PC1  PC2  PC3  PC4  PC5  PC6  PC7  PC8 
+ APP1:       1    0    0    0    0    0    0    0
+ APP2:       0    1    0    0    0    0    0    0
+ APP3:       1    0    0    0    0    0    0    0
+ APP4:       0    0    1    0    0    0    0    0
+ APP5:       0    0    0    1    0    0    0    0
+ APP6:       0    0    0    1    1    1    1    1
+ APP7:       1    1    1    1    1    1    1    1
+ APP8:       0    1    1    0    1    1    1    1
+ APP9:       0    1    1    0    1    1    1    1
+ APP10:       1    0    0    0    0    0    0    0
+
+ ----- Comment -----
+ APP1: FTP Server
+ APP2: FTP Client
+ APP3: VLC Server
+ APP4: VLC Client
+ APP5: USB samba upload
+ APP6: YouTube
+ APP7: Circulate ping IPv4/IPv6
+ APP8: uTorren
+ APP9: PPTV
+ APP10: Open GUI
